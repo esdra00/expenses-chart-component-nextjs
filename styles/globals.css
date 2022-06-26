@@ -1,16 +1,21 @@
+:root {
+	--primary-soft-red: hsl(10, 79%, 65%);
+	--primary-cyan: hsl(186, 34%, 60%);
+
+	--neutral-dark-brown: hsl(25, 47%, 15%);
+	--neutral-medium-brown: hsl(28, 10%, 53%);
+	--neutral-cream: hsl(27, 66%, 92%);
+	--neutral-very-pale-orange: hsl(33, 100%, 98%);
+	font-size: 18px;
+	font-family: "DM Sans", sans-serif;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+	overflow: hidden;
 }

@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Expenses chart component solution
 
-## Getting Started
+This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+-    [Overview](#overview)
+     -    [The challenge](#the-challenge)
+     -    [Screenshot](#screenshot)
+     -    [Links](#links)
+-    [My process](#my-process)
+     -    [Built with](#built-with)
+     -    [What I learned](#what-i-learned)
+     -    [Continued development](#continued-development)
+-    [Author](#author)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### The challenge
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Your challenge is to build out this bar chart component and get it looking as close to the design as possible.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-## Learn More
+We provide the data for the chart in a local `data.json` file. So you can use that to dynamically add the bars if you choose.
 
-To learn more about Next.js, take a look at the following resources:
+Users should be able to:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-    View the bar chart and hover over the individual bars to see the correct amounts for each day
+-    See the current day’s bar highlighted in a different colour to the other bars
+-    View the optimal layout for the content depending on their device’s screen size
+-    See hover states for all interactive elements on the page
+-    **Bonus**: Use the JSON data file provided to dynamically size the bars on the chart
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Screenshot
 
-## Deploy on Vercel
+![](./screenshot.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Links
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-    Solution URL: [Solution](https://github.com/esdra00/expenses-chart-component-nextjs.git)
+-    Live Site URL: [Live Site](https://esdra00.github.io/expenses-chart-component-nextjs/)
+
+## My process
+
+### Built with
+
+-    Semantic HTML5 markup
+-    [React](https://reactjs.org/) - JS library
+-    [Next.js](https://nextjs.org/) - React framework
+-    [Github Pages](https://pages.github.com) - for deployment
+
+### What I learned
+
+### Continued development
+
+## Author
+
+-    Website - [Add your name here](https://www.your-site.com)
+-    Frontend Mentor - [@esdra00](https://www.frontendmentor.io/profile/esdra00)
+-    Github - [@esdra00](https://github.com/esdra00)
